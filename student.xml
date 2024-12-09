@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<college>
+    <student>
+        <rollno>101</rollno>
+        <name>Mike</name>
+        <course>Computer Science</course>
+        <fees>10000</fees>
+    </student> 
+    <student>
+        <rollno>102</rollno>
+        <name>Mary</name>
+        <course>Electrical</course>
+        <fees>12000</fees>
+    </student> 
+    <student>
+        <rollno>103</rollno>
+        <name>Arun</name>
+        <course>Mechanical</course>
+        <fees>8000</fees>
+    </student> 
+</college>

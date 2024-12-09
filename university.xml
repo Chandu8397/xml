@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- External DTD-->
+<!DOCTYPE university_list SYSTEM "university.dtd">
+<university_list>
+
+    <University id="01" department="ECE">
+        <collegename>Harward University</collegename>
+        <type >Head of dept</type>
+        <email>hardward@hotmail.com</email>
+ </University>
+
+    <University id="02" department="CSE">
+        <collegename>IP University</collegename>
+        <type>Head of dept</type>
+        <email>ip@hotmail.com</email>
+    </University>
+
+    <University id="03" department="IT">
+        <collegename>VTU</collegename>
+        <type>Head of dept</type>
+        <email>vtu@hotmail.com</email>
+        <hod>James Gosling</hod>
+    </University>
+
+    <University  id="04" department="IT">
+        <collegename>ABC University</collegename>
+        <type>Head of dept</type>
+        <email>abc@hotmail.com</email>
+        <hod>RAJ Gs</hod>
+
+    </University>
+</university_list>

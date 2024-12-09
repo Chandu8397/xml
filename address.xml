@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Internal DTD (Validation/Structure of XML Document)-->
+<!DOCTYPE person [
+        <!ELEMENT person (address+)>
+        <!ELEMENT address (name,company,phone)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT company (#PCDATA)>
+        <!ELEMENT phone (#PCDATA)>
+]>
+<person>
+    <address>
+        <name>Mike Jhon</name>
+        <company>Coforge</company>
+        <phone>99887766</phone>
+    </address>
+
+    <address>
+        <name>Arun</name>
+        <company>Quinoxx</company>
+        <phone>(080) 567-2345</phone>
+    </address>
+</person>

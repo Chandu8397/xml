@@ -1,0 +1,13 @@
+<!ELEMENT university_list (University+)>
+<!ELEMENT University (collegename, type, email, hod?)>  
+<!ATTLIST University id CDATA #REQUIRED>
+<!ELEMENT collegename (#PCDATA)>
+<!ELEMENT hod (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ATTLIST University department CDATA #REQUIRED>
+<!ELEMENT email (#PCDATA)>
+
+
+<!-- ? - Optional Element
+     + - REquired Element
+     -->
